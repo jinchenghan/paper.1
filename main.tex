@@ -1,20 +1,56 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 
-\title{hanjincheng}
-\author{hanjincheng320 }
+
+\title{Iron toxicity text experiment }
+\author{Jincheng Han}
 \date{October 2018}
 
 \usepackage{natbib}
 \usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{longtable}
+
 
 \begin{document}
 
 \maketitle
 
-\section{Introduction}
-There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable.
-There is another theory which states that this has already happened.
+\section{Objective  }
+Iron toxicity test for perchlorate reduction bacteria
+\section{Hypothesis }
+The presence of ferrous and ferric iron will inhibit the growth of perchlorate bacteria. (the effect of ferrous iron will be more significant). 
+\section{Enrichment culture  }
+\begin{center}
+\begin{longtable}{|l|l|l|}
+\caption{enrichment culture.} \label{tab:long} \\
+\hline \multicolumn{1}{|c|}{\textbf{compounds}} & \multicolumn{1}{c|}{\textbf{concentration }} & \multicolumn{1}{c|}{\textbf{volume }} \\ \hline 
+\endfirsthead
+
+\multicolumn{3}{c}%
+{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+\hline \multicolumn{1}{|c|}{\textbf{First column}} & \multicolumn{1}{c|}{\textbf{Second column}} & \multicolumn{1}{c|}{\textbf{Third column}} \\ \hline 
+\endhead
+
+\hline \multicolumn{3}{|r|}{{Continued on next page}} \\ \hline
+\endfoot
+
+\hline \hline
+\endlastfoot
+
+media solution  & / & 1000ml \\
+Bacteria  & / & 100ml \\
+Perchlorate (from the stock) & 100,000 mg/l  & 10ml \\
+Ethanol & 1000 mg & 1.25ml \\
+
+
+\end{longtable}
+\end{center}
+
+Media solution follows Bruce 1999, including fresh medium, vitamin and trace element. Add media solution, bacteria, perchlorate stock and ethanol following the table 1.Culture the bacteria in the dark room, $25^\circ$C, 80rpm/mins. In the meantime, sample the perchlorate concentration every 48h until the perchlorate concentration is almost 0mg/l. All operation is under the anaerobic condition.
+
+
+
 \section{methond}
 i like you 
 \textbf{}
@@ -29,5 +65,16 @@ i like you
 ``I always thought something was fundamentally wrong with the universe'' \citep{adams1995hitchhiker}
 
 \bibliographystyle{plain}
+@article{bruce1999reduction,
+  title={Reduction of (per) chlorate by a novel organism isolated from paper mill waste},
+  author={Bruce, Royce A and Achenbach, Laurie A and Coates, John D},
+  journal={Environmental microbiology},
+  volume={1},
+  number={4},
+  pages={319--329},
+  year={1999},
+  publisher={Wiley Online Library}
+}
 \bibliography{references}
+
 \end{document}

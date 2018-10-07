@@ -10,7 +10,8 @@
 \usepackage{graphicx}
 \usepackage{multirow}
 \usepackage{longtable}
-
+\usepackage{booktabs}
+\newcommand{\head}[1]{\textnormal{\textbf{#1}}}
 
 \begin{document}
 
@@ -20,7 +21,8 @@
 Iron toxicity test for perchlorate reduction bacteria
 \section{Hypothesis }
 The presence of ferrous and ferric iron will inhibit the growth of perchlorate bacteria. (the effect of ferrous iron will be more significant). 
-\section{Enrichment culture  }
+\section{Methods }
+
 \begin{center}
 \begin{longtable}{|l|l|l|}
 \caption{enrichment culture.} \label{tab:long} \\
@@ -47,7 +49,32 @@ Ethanol & 1000 mg & 1.25ml \\
 \end{longtable}
 \end{center}
 
+\begin{itemize}
+\item Enrichment culture 
+\end{itemize}
 Media solution follows Bruce 1999, including fresh medium, vitamin and trace element. Add media solution, bacteria, perchlorate stock and ethanol following the table 1.Culture the bacteria in the dark room, $25^\circ$C, 80rpm/mins. In the meantime, sample the perchlorate concentration every 48h until the perchlorate concentration is almost 0mg/l. All operation is under the anaerobic condition.
+\begin{itemize}
+\item PIPES Buffer 
+\end{itemize}
+Making 20mM PIPES buffer and adjust pH under $N_{2}$-C$O_{2}$ head-space for 20mins to make sure no oxygen in the PIPES buffer.
+
+
+
+Growth cultures were conducted using freshwater 30mM bicarbonate-buffered basal media (pH 6.8) under a N2-CO2 (80\%:20\%) headspace. During this experiment, there are 3 repeats. Washed cell suspensions were carried out by centrifuging 200mL of cells grown in minimal media and washing twice with 20mM PIPES buffer, pH 7, and re-suspending after a third centrifuging in the same buffer.	Added 2ml perchlorate from perchlorate stock and 0.25ml ethanol from stock. Measured main parameters every 6h.
+
+\begin{center}
+\begin{tabular}{ |c|c|c|c|c|c|} 
+\hline
+IT1 & IT2 & IT3& IT4& IT5 \\
+\hline
+\multirow{5}{5em}{Multiple row} & cell2 & cell3 \\ 
+& cell5 & cell6 \\ 
+& cell8 & cell9 \\ 
+\hline
+\end{tabular}
+\end{center}
+
+
 
 
 

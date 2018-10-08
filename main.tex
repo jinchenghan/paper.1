@@ -11,6 +11,7 @@
 \usepackage{multirow}
 \usepackage{longtable}
 \usepackage{booktabs}
+\usepackage{tabu}
 \newcommand{\head}[1]{\textnormal{\textbf{#1}}}
 
 \begin{document}
@@ -24,7 +25,7 @@ The presence of ferrous and ferric iron will inhibit the growth of perchlorate b
 \section{Methods }
 
 \begin{center}
-\begin{longtable}{|l|l|l|}
+\begin{longtable}{|c|c|c|}
 \caption{enrichment culture.} \label{tab:long} \\
 \hline \multicolumn{1}{|c|}{\textbf{compounds}} & \multicolumn{1}{c|}{\textbf{concentration }} & \multicolumn{1}{c|}{\textbf{volume }} \\ \hline 
 \endfirsthead
@@ -40,8 +41,8 @@ The presence of ferrous and ferric iron will inhibit the growth of perchlorate b
 \hline \hline
 \endlastfoot
 
-media solution  & / & 1000ml \\
-Bacteria  & / & 100ml \\
+media solution  & --- & 1000ml \\
+Bacteria  & --- & 100ml \\
 Perchlorate (from the stock) & 100,000 mg/l  & 10ml \\
 Ethanol & 1000 mg & 1.25ml \\
 
@@ -56,27 +57,25 @@ Media solution follows Bruce 1999, including fresh medium, vitamin and trace ele
 \begin{itemize}
 \item PIPES Buffer 
 \end{itemize}
-Making 20mM PIPES buffer and adjust pH under $N_{2}$-C$O_{2}$ head-space for 20mins to make sure no oxygen in the PIPES buffer.
 
+Making 20mM PIPES buffer and adjust pH under $N_{2}$-C$O_{2}$ head-space for 20mins to make sure no oxygen in the PIPES buffer.Growth cultures were conducted using freshwater 30mM bicarbonate-buffered basal media (pH 6.8) under a N2-CO2 (80\%:20\%) headspace. During this experiment, there are 3 repeats. Washed cell suspensions were carried out by centrifuging 200mL of cells grown in minimal media and washing twice with 20mM PIPES buffer, pH 7, and re-suspending after a third centrifuging in the same buffer.	Added 2ml perchlorate from perchlorate stock and 0.25ml ethanol from stock. Measured main parameters every 6h.
+\begin{itemize}
+\item Different Treatment 
+\end{itemize}
 
+\centering
+\begin{tabular}{c|c|c|c|c|c}
 
-Growth cultures were conducted using freshwater 30mM bicarbonate-buffered basal media (pH 6.8) under a N2-CO2 (80\%:20\%) headspace. During this experiment, there are 3 repeats. Washed cell suspensions were carried out by centrifuging 200mL of cells grown in minimal media and washing twice with 20mM PIPES buffer, pH 7, and re-suspending after a third centrifuging in the same buffer.	Added 2ml perchlorate from perchlorate stock and 0.25ml ethanol from stock. Measured main parameters every 6h.
-
-\begin{center}
-\begin{tabular}{ |c|c|c|c|c|c|} 
-\hline
-IT1 & IT2 & IT3& IT4& IT5 \\
-\hline
-\multirow{5}{5em}{Multiple row} & cell2 & cell3 \\ 
-& cell5 & cell6 \\ 
-& cell8 & cell9 \\ 
-\hline
+     & IT1& IT2& IT3& IT4& IT5 \\
+     \hline 
+      & positive control & negative control &2mM $Fe^{2+}$& 2mM $Fe^{3+}$& $Fe^{2+}$+$Fe^{3+}$\\
+     PIPES Buffer& 198.15ml& 196.4ml& 196.5ml& 196.5ml& 196.5ml\\PIPES Perchlorate & 1.6ml& 1.6ml&1.6ml& 1.6ml& 1.6ml\\
+     Ethanol & 0.25ml& --- & 0.25ml& 0.25ml& 0.25ml\\
+     $Fe^{2+}$ & ---& 2ml&2ml& ---ml& 1ml\\
+     $Fe^{3+}$ &---& ---&---& 2ml& 1ml\\
+    
+     
 \end{tabular}
-\end{center}
-
-
-
-
 
 \section{methond}
 i like you 
